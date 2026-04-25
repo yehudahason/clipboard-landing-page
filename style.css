@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Martian+Mono:wght@100..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+  --font-family-primary: "Bai Jamjuree", sans-serif;
+
+  /* Preset Mixins/Bundles */
+  --text-preset-1: 600 46px/1.25 var(--font-family-primary);
+  --text-preset-1-ls: -0.75px;
+
+  --text-preset-2: 600 40px/1.25 var(--font-family-primary);
+  --text-preset-2-ls: -0.75px;
+
+  --text-preset-3: 600 36px/1.25 var(--font-family-primary);
+  --text-preset-3-ls: -0.6px;
+
+  --text-preset-4: 600 32px/1.25 var(--font-family-primary);
+  --text-preset-4-ls: -0.5px;
+
+  --text-preset-5: 600 28px/1.25 var(--font-family-primary);
+  --text-preset-5-ls: -0.5px;
+
+  --text-preset-6: 600 24px/1.25 var(--font-family-primary);
+  --text-preset-6-ls: -0.4px;
+
+  --text-preset-7-sb: 600 20px/1.5 var(--font-family-primary);
+  --text-preset-7-sb-ls: 0.5px;
+
+  --text-preset-7-reg: 400 20px/1.5 var(--font-family-primary);
+  --text-preset-7-reg-ls: 0.15px;
+
+  --text-preset-8: 400 16px/1.5 var(--font-family-primary);
+  --text-preset-8-ls: 0.15px;
+}
+
+h1 {
+  font: var(--text-preset-1);
+  letter-spacing: var(--text-preset-1-ls);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
