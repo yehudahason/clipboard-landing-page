@@ -3,44 +3,78 @@
 :root {
   --font-family-primary: "Bai Jamjuree", sans-serif;
 
-  /* Preset Mixins/Bundles */
-  --text-preset-1: 600 46px/1.25 var(--font-family-primary);
-  --text-preset-1-ls: -0.75px;
+  /* Preset Mixins/Bundles (Using rem for size and unitless for line-height) */
+  --text-preset-1: 600 2.875rem/1.25 var(--font-family-primary); /* 46px */
+  --text-preset-1-ls: -0.046875rem;
 
-  --text-preset-2: 600 40px/1.25 var(--font-family-primary);
-  --text-preset-2-ls: -0.75px;
+  --text-preset-2: 600 2.5rem/1.25 var(--font-family-primary); /* 40px */
+  --text-preset-2-ls: -0.046875rem;
 
-  --text-preset-3: 600 36px/1.25 var(--font-family-primary);
-  --text-preset-3-ls: -0.6px;
+  --text-preset-3: 600 2.25rem/1.25 var(--font-family-primary); /* 36px */
+  --text-preset-3-ls: -0.0375rem;
 
-  --text-preset-4: 600 32px/1.25 var(--font-family-primary);
-  --text-preset-4-ls: -0.5px;
+  --text-preset-4: 600 2rem/1.25 var(--font-family-primary); /* 32px */
+  --text-preset-4-ls: -0.03125rem;
 
-  --text-preset-5: 600 28px/1.25 var(--font-family-primary);
-  --text-preset-5-ls: -0.5px;
+  --text-preset-5: 600 1.75rem/1.25 var(--font-family-primary); /* 28px */
+  --text-preset-5-ls: -0.03125rem;
 
-  --text-preset-6: 600 24px/1.25 var(--font-family-primary);
-  --text-preset-6-ls: -0.4px;
+  --text-preset-6: 600 1.5rem/1.25 var(--font-family-primary); /* 24px */
+  --text-preset-6-ls: -0.025rem;
 
-  --text-preset-7-sb: 600 20px/1.5 var(--font-family-primary);
-  --text-preset-7-sb-ls: 0.5px;
+  --text-preset-7-sb: 600 1.25rem/1.5 var(--font-family-primary); /* 20px */
+  --text-preset-7-sb-ls: 0.03125rem;
 
-  --text-preset-7-reg: 400 20px/1.5 var(--font-family-primary);
-  --text-preset-7-reg-ls: 0.15px;
+  --text-preset-7-reg: 400 1.25rem/1.5 var(--font-family-primary); /* 20px */
+  --text-preset-7-reg-ls: 0.009375rem;
 
-  --text-preset-8: 400 16px/1.5 var(--font-family-primary);
-  --text-preset-8-ls: 0.15px;
+  --text-preset-8: 400 1rem/1.5 var(--font-family-primary); /* 16px */
+  --text-preset-8-ls: 0.009375rem;
 }
 
+.p-7,
+.p-8 {
+  font: var(--text-preset-8);
+  letter-spacing: var(--text-preset-8-ls);
+}
 h1 {
-  font: var(--text-preset-1);
-  letter-spacing: var(--text-preset-1-ls);
+  font: var(--text-preset-4);
+  letter-spacing: var(--text-preset-4-ls);
 }
 
+h3 {
+  font: var(--text-preset-5);
+  letter-spacing: var(--text-preset-5-ls);
+}
+h4 {
+  font: var(--text-preset-6);
+  letter-spacing: var(--text-preset-6-ls);
+}
 .logo-container {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 1rem;
+}
+
+@media (min-width: 26rem) {
+  .p-7 {
+    font: var(--text-preset-7-reg);
+    letter-spacing: var(--text-preset-7-reg-ls);
+  }
+  h1 {
+    font: var(--text-preset-2);
+    letter-spacing: var(--text-preset-2-ls);
+  }
+  h3 {
+    font: var(--text-preset-3);
+    letter-spacing: var(--text-preset-3-ls);
+  }
+}
+@media (min-width: 48rem) {
+  h1 {
+    font: var(--text-preset-1);
+    letter-spacing: var(--text-preset-1-ls);
+  }
 }
