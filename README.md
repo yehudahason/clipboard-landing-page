@@ -8,7 +8,7 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 
 ### Links
 
-- My solution at: [GitHub Pages](https://your-solution-url.com)
+- My solution at: [GitHub Pages](https://yehudahason.github.io/clipboard-landing-page/)
 
 ## Author
 
