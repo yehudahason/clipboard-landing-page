@@ -96,6 +96,10 @@ main {
   margin: 0 auto;
   padding: 3rem 2rem 9rem;
 }
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
 .btn-con {
   display: flex;
   align-items: center;
@@ -266,7 +270,6 @@ footer .links {
 }
 .links p:hover {
   color: var(--clr-green-500);
-  cursor: pointer;
 }
 
 .socials {
