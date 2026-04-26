@@ -163,7 +163,7 @@ h4 {
   letter-spacing: var(--text-preset-6-ls);
   text-align: center;
 }
-
+h1,
 h3,
 h4 {
   color: var(--clr-gray-700);
