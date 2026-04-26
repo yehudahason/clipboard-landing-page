@@ -115,6 +115,14 @@ a {
   letter-spacing: var(--text-preset-7-sb-ls);
   cursor: pointer;
 }
+.btn:focus {
+  outline: 2px solid var(--clr-blue-500);
+  outline-offset: 2px;
+}
+a:focus {
+  outline: 2px solid var(--clr-blue-500);
+  outline-offset: 2px;
+}
 .btn.ios {
   background-color: var(--clr-green-500);
   color: var(--clr-white);
