@@ -166,7 +166,7 @@ h4 {
 h1,
 h3,
 h4 {
-  color: var(--clr-gray-700);
+  color: var(--clr-gray-950);
 }
 
 p {
@@ -273,6 +273,9 @@ footer .links {
   align-items: center;
   gap: 2rem;
   flex-direction: column;
+}
+.links p {
+  color: var(--clr-gray-950);
 }
 .links p:hover {
   color: var(--clr-green-500);
