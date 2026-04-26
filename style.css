@@ -160,12 +160,7 @@ h3,
 h4 {
   color: var(--clr-gray-700);
 }
-.r-col h4 {
-  text-align: left;
-}
-.r-col p {
-  text-align: left;
-}
+
 p {
   text-align: center;
   color: var(--clr-gray-500);
@@ -234,7 +229,7 @@ img {
   flex-direction: column;
   gap: 2rem;
   justify-content: center;
-  align-items: start;
+  align-items: center;
   max-width: 22rem;
 }
 .section5 {
@@ -389,8 +384,19 @@ footer .links {
     flex-direction: row;
     gap: 0rem;
   }
+  .r-col {
+    margin-left: -6.5rem;
+    align-items: start;
+  }
+  .r-col h4 {
+    text-align: left;
+  }
+
+  .r-col p {
+    text-align: left;
+  }
   .computer-con img {
-    transform: translateX(-36%);
+    transform: translateX(-42%);
     object-fit: cover;
     width: 50%;
   }
