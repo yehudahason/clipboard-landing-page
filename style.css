@@ -367,7 +367,7 @@ footer .links {
   }
   h3 {
     font: var(--text-preset-3);
-    letter-spacing: var(--text-preset-3-ls);
+    /* letter-spacing: var(--text-preset-3-ls); */
   }
   .logo-container {
     flex-direction: row;
