@@ -12,4 +12,4 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 
 ## Author
 
-- Frontend Mentor - [Yehuda Hason](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [Yehuda Hason](https://www.frontendmentor.io/profile/yehudahason)
