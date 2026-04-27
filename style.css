@@ -234,6 +234,9 @@ img {
   flex-direction: column;
   gap: 6rem;
 }
+.computer-con img {
+  max-width: 44rem;
+}
 .r-col {
   display: flex;
   flex-direction: column;
@@ -374,7 +377,7 @@ footer .links {
     flex-wrap: wrap;
   }
 }
-@media (min-width: 52rem) {
+@media (min-width: 48rem) {
   h1 {
     font: var(--text-preset-1);
     letter-spacing: var(--text-preset-1-ls);
@@ -391,7 +394,7 @@ footer .links {
     max-width: 46rem;
   }
 }
-@media (min-width: 65rem) {
+@media (min-width: 68rem) {
   .icons-con1 {
     flex-direction: row;
   }
