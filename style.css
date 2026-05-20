@@ -61,6 +61,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+ul {
+  list-style: none;
+}
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
 header {
   min-height: auto;
   background-image:
@@ -139,10 +149,11 @@ a:focus {
 .btn.mac:hover {
   background-color: var(--clr-blue-400);
 }
-.p-7,
-.p-8 {
+.p-7 a,
+.p-8 a {
   font: var(--text-preset-8);
   letter-spacing: var(--text-preset-8-ls);
+  color: var(--clr-gray-700);
 }
 h1 {
   font: var(--text-preset-4);
@@ -282,7 +293,7 @@ footer .links {
 .links p {
   color: var(--clr-gray-950);
 }
-.links p:hover {
+.links a:hover {
   color: var(--clr-green-500);
 }
 
